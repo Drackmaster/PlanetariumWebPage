@@ -1,0 +1,155 @@
+<head>
+    <title>Planets</title>
+    <!--Metaetiqueta-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf=8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">   
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
+    
+    <link rel='stylesheet' href="HE_BootstrapIcons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.cdnfonts.com/css/dragonlord">
+
+    <link rel="stylesheet" href="CSS/Opinions.css">
+</head>
+
+<body>
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" >
+        
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <img src="./images/planet-earth.png" style="width: 100%;">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="barradenavegacion">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="barradenavegacion" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+      
+            <a class="navbar-item" href="Planets.html">
+              Planetas
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link is is-arrowless">
+                Cuerpos celestes
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="Asteroids.html">
+                  Asteroides
+                </a>
+                <a class="navbar-item"href="Comets.html">
+                  Cometas
+                </a>
+              </div>
+            </div>
+  
+            <a class="navbar-item" href="Opinions.html">
+              Foro de Opiniones
+              </a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-justify">
+
+        <video onloadstar="this.muted=true" autoplay loop>
+            <source src="./Videos/Stars.mp4">
+        </video>
+        
+        <section class="form-login">
+
+            <div class="alert alert-primary" role="alert">
+              Hola!! Aqui puedes indicarnos que te ha parecido la pagina, porfavor continua
+              <p>
+                <button id="btnLogin" class="btn btn-lg btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Proceder
+                </button>
+              </p>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+            <form id="form1" class="form-signin"  action="Opiniones.php" method="post"> <!--Form y su id-->
+                <h1 class="h3 mb-3 font-weight-normal text-center">Login</h1>
+                <label for="" class="sr-only">Email</label>
+                <input id="user" type="text" class="form-control" placeholder="Email" autofocus><!--Input de usuario-->
+                <div class="checkbox mb-3"></div>
+
+                <label for="" class="sr-only">Opinion</label>
+                <input id="opinion" type="text" class="form-control" placeholder="Opinion" autofocus>
+
+
+              </form><div align="center"><button class="btn btn-lg btn-dark btn-bloc" onClick="window.location.href=window.location.href">Enviar</button></div> </div>
+              
+    </div>
+    
+<footer class="piedepagina">
+    <div class="grupo">
+  
+        <div>
+          <figure>
+            <h1>Donde estamos para felicitarnos</h1> <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.702971038841!2d-99.12871458533556!3d19.511410943212294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9c228b343cf%3A0x2f403a140132e3e7!2sUPIITA%20-%20Unidad%20Profesional%20Interdisciplinaria%20en%20Ingenier%C3%ADa%20y%20Tecnolog%C3%ADas%20Avanzadas%20IPN!5e0!3m2!1ses-419!2smx!4v1654489399534!5m2!1ses-419!2smx"
+             width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </figure>
+        </div>
+        <div>
+            <h2>Contacto con el espacio:</h2>
+            <br>
+            <div class="red">
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                <a href="https://twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+      
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+        
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+        
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+        
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        
+        });
+        });
+        
+        });
+        </script>
+
+
+</body>

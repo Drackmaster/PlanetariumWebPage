@@ -1,0 +1,285 @@
+<html>
+<head>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <title>Planetairum</title>
+  <!--Metaetiqueta-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf=8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">   
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
+  
+  <link rel='stylesheet' href="HE_BootstrapIcons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+  
+
+  <link rel="stylesheet" href="CSS/Main.css">
+
+</head>
+
+<body>
+  
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" >
+        
+      <div class="navbar-brand">
+        <a class="navbar-item" href="">
+          <img src="./images/planet-earth.png" style="width: 100%;">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="barradenavegacion">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="barradenavegacion" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+    
+          <a class="navbar-item" href="Planets.html">
+            Planetas
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link is is-arrowless">
+              Cuerpos celestes
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="Asteroids.html">
+                Asteroides
+              </a>
+              <a class="navbar-item"href="Comets.html">
+                Cometas
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="Opinions.html">
+            Foro de Opiniones
+            </a>
+        </div>
+      </div>
+  </nav>
+
+
+
+<!--Bienvenida-->
+
+<!--Division-->
+<div class="divTitulo">
+  <div id="app">
+    <h1 class="tituloC"><ins>{{ message }}</ins></h1>
+  </div>
+</div>
+  <!--Imagen-->
+
+  <div class="container-fluid text-justify">
+    <section class="main1 row">    
+        <article class=" align=text-right col-xs-12 col-sm-8 col-md-9 col-lg-9">
+          <div class="row justify-content-center">
+            <div class="card" style="width: 98rem;">
+              <div class="inner">
+              <div class="contenedor">
+                <a href="Planets.html">
+                    <img src="./images/Espacio.webp" class="lazyfade picture article--img img-responsive lazyautosizes lazyloaded" alt="Bienvenida" sizes="294px"> 
+                  </a>
+                  <div class="texto-encima"><h2>Espacio</h2></div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </article>
+        
+    
+    <aside class="col-xs-12 col-sm-8 col-md-3 col-lg-3">
+      <p>
+        <!-- gabriel hanot -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="./images/cohete.jpg" alt="Cohete">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="./images/Astronauta.jpg" alt="Astronauta">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Guia Astronauta</p>
+              </div>
+            </div>
+          
+            <div class="content">
+              Nuestro Pequeño amigo astronauta, experto en la exploración del espacio, es nuestro querido guía, que nos llevara de viaje a reconditos y magicos lugares espaciales.
+              
+            </div>
+          </div>
+        </div>
+      </p>
+    </aside>
+    </section>
+  </div>
+  
+  
+</div>
+
+<!-- boton flotante -->
+<div class="container2">
+  <input type="checkbox" id="btn-mas">
+  <div class="redes">
+      <a href="https://www.nasa.gov/"> <img src="images/nasa.jpg" alt=""></a>
+  </div>
+  <div class="btn-mas">
+      <label for="btn-mas" class="fa fa-plus"></label>
+  </div>
+</div>
+
+<div id="div1">
+  En esta pagina podras experimertar de propia mano, el aprendizaje virtual de los cuerpos celeste. Se busca que
+  tengas la experiencia de un planetario sin salir de tu casa.
+</div>
+
+
+<div id="divCarrousel">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div align="center"><img src="images/Mercurio.jpg" alt="Mercurio" style="width: 300px; height: 300px;"> 
+          <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Mercurio</h5></div>
+        </div>
+      </div>
+    <div class="item">
+      <div align="center"><img src="images/Venus.jpg" alt="Venus" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Venus</h5></div>
+    </div>
+  
+    <div class="item">
+      <div align="center"><img src="images/Tierra.jpg" alt="Tierra" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Tierra</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Marte.jpg" alt="Marte" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Marte</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Jupiter.jpg" alt="Jupiter" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Jupiter</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Saturno.jpg" alt="Saturno" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Saturno</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Urano.jpg" alt="Urano" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Urano</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Neptuno.jpg" alt="Neptuno" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Neptuno</h5></div>
+    </div>
+    <div class="item">
+      <div align="center"><img src="images/Pluton.jpg" alt="Pluton" style="width: 300px; height: 300px;"> </div>
+      <div class="carousel-caption d-none d-md-block"><h5 class="carrouselTitulo">Pluton</h5></div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+</div>
+
+</div>
+
+<footer class="piedepagina">
+  <div class="grupo">
+
+      <div></div>
+      <div>
+          <h2>Contacto con el espacio:</h2>
+          <br>
+          <div class="red">
+              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+              <a href="https://twitter.com" class="fa fa-twitter"></a>
+              <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script>
+var myObject = new Vue({
+  el: '#app',
+  data: {message: 'Bienvenido al espacio!'}
+})
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+el.addEventListener('click', () => {
+
+  // Get the target from the "data-target" attribute
+  const target = el.dataset.target;
+  const $target = document.getElementById(target);
+
+  // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+  el.classList.toggle('is-active');
+  $target.classList.toggle('is-active');
+
+});
+});
+
+});
+</script>
+
+
+</body>
+</html>
